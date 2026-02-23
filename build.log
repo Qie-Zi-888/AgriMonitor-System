@@ -1,0 +1,247 @@
+Done. Made 68 targets from 61 files in 233ms
+ninja: Entering directory `/home/gec/out/bearpi_hm_nano/bearpi_hm_nano'
+[1/222] gcc cross compiler obj/base/hiviewdfx/hilog_lite/frameworks/mini/libhilog_lite.hiview_log.o
+[2/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/libcloud_oc_agriculture.button_app.o
+[3/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/libcloud_oc_agriculture.iot_cloud_sample.o
+[4/222] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_file.o
+[5/222] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_util.o
+[6/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/src/libcloud_oc_agriculture.huawei_iot.o
+[7/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/src/libcloud_oc_agriculture.E53_IA1.o
+[8/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/src/libcloud_oc_agriculture.wifi_connect.o
+[9/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/nfc/libcloud_oc_agriculture.nfc.o
+[10/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/nfc/libcloud_oc_agriculture.NT3H.o
+[11/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/nfc/libcloud_oc_agriculture.nfc_app.o
+[12/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/nfc/ndef/rtd/libcloud_oc_agriculture.rtdText.o
+[13/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/nfc/ndef/rtd/libcloud_oc_agriculture.nfcForum.o
+[14/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/nfc/ndef/rtd/libcloud_oc_agriculture.rtdUri.o
+[15/222] gcc cross compiler obj/applications/sample/BearPi/BearPi-HM_Nano/sample/e53_ia1_smart_agriculture_sample/nfc/ndef/libcloud_oc_agriculture.ndef.o
+[16/222] gcc cross compiler obj/base/hiviewdfx/hievent_lite/frameworks/libhievent_lite.hiview_event.o
+[17/222] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_cache.o
+[18/222] gcc cross compiler obj/base/hiviewdfx/hilog_lite/frameworks/mini/libhilog_lite.hiview_log_limit.o
+[19/222] gcc cross compiler obj/base/hiviewdfx/hievent_lite/frameworks/libhievent_lite.hiview_output_event.o
+[20/222] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_service.o
+[21/222] gcc cross compiler obj/base/hiviewdfx/hiview_lite/libhiview_lite.hiview_config.o
+[22/222] gcc cross compiler obj/base/hiviewdfx/hilog_lite/frameworks/mini/libhilog_lite.hiview_output_log.o
+[23/222] AR libs/libhiview_lite.a
+[24/222] AR libs/libhievent_lite.a
+[25/222] AR libs/libhilog_lite.a
+[26/222] STAMP obj/base/hiviewdfx/hilog_lite/frameworks/mini/hilog_lite_ndk.stamp
+[27/222] STAMP obj/build/lite/ndk.stamp
+[28/222] gcc cross compiler obj/base/startup/bootstrap_lite/services/source/libbootstrap.bootstrap_service.o
+[29/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.add_auth_info.o
+[30/222] gcc cross compiler obj/base/update/ota_lite/frameworks/source/verify/libhota.app_rsa.o
+[31/222] gcc cross compiler obj/base/update/ota_lite/frameworks/source/verify/libhota.app_sha256.o
+[32/222] STAMP obj/base/startup/syspara_lite/frameworks/token/token_notes.stamp
+[33/222] gcc cross compiler obj/base/startup/syspara_lite/frameworks/parameter/src/param_impl_hal/libsysparam.param_impl_hal.o
+[34/222] STAMP obj/base/update/ota_lite/frameworks/test.stamp
+[35/222] gcc cross compiler obj/base/update/ota_lite/frameworks/source/updater/libhota.hota_updater.o
+[36/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.add_auth_info_client.o
+[37/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.auth_info.o
+[38/222] gcc cross compiler obj/base/startup/syspara_lite/frameworks/parameter/src/libsysparam.parameter_common.o
+../../../base/startup/syspara_lite/frameworks/parameter/src/parameter_common.c: In function 'GetSecurityPatchTag':
+../../../base/startup/syspara_lite/frameworks/parameter/src/parameter_common.c:133:12: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     return OHOS_SECURITY_PATCH_TAG;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+[39/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.exchange_auth_info.o
+[40/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.remove_auth_info_client.o
+[41/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/auth_info/libhichainsdk.exchange_auth_info_client.o
+[42/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/json/libhichainsdk.commonutil.o
+[43/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/libhichainsdk.hichain.o
+[44/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.key_agreement.o
+[45/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.key_agreement_client.o
+[46/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/json/libhichainsdk.jsonutil.o
+[47/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.key_agreement_server.o
+[48/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.pake_client.o
+[49/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/huks_adapter/libhichainsdk.huks_adapter.o
+[50/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.sec_clone_server.o
+[51/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.sts_client.o
+[52/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.pake_server.o
+[53/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/log/libhichainsdk.log.o
+[54/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/key_agreement/libhichainsdk.sts_server.o
+[55/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/schedule/libhichainsdk.build_object.o
+[56/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.add_auth_info_data.o
+[57/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.add_auth_info_request.o
+[58/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.add_auth_info_response.o
+[59/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/schedule/libhichainsdk.distribution.o
+[60/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_ack_request.o
+[61/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_ack_response.o
+[62/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_start_request.o
+[63/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.auth_start_response.o
+[64/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.exchange_request.o
+[65/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.exchange_auth_data.o
+[66/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.exchange_response.o
+[67/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.import_add_auth_data.o
+[68/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.inform_message.o
+[69/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.key_agreement_version.o
+[70/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_client_confirm.o
+[71/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_request.o
+[72/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_server_confirm.o
+[73/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.pake_response.o
+[74/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.rmv_auth_info_data.o
+[75/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.rmv_auth_info_request.o
+[76/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.parsedata.o
+[77/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.rmv_auth_info_response.o
+[78/222] gcc cross compiler obj/base/startup/bootstrap_lite/services/source/libbootstrap.system_init.o
+[79/222] gcc cross compiler obj/base/security/deviceauth/frameworks/deviceauth_lite/source/struct/libhichainsdk.sec_clone_data.o
+[80/222] AR libs/libbootstrap.a
+[81/222] STAMP obj/base/update/ota_lite/frameworks/update_api.stamp
+[82/222] AR libs/libhichainsdk.a
+[83/222] STAMP obj/base/security/deviceauth/frameworks/deviceauth_lite/hichainsdk.stamp
+[84/222] gcc cross compiler obj/base/startup/syspara_lite/frameworks/token/src/token_impl_hal/libtoken_static.token.o
+[85/222] STAMP obj/build/lite/config/component/cJSON/cjson_shared.stamp
+[86/222] STAMP obj/device/bearpi/bearpi_hm_nano/bearpi_hm_nano.stamp
+[87/222] STAMP obj/build/lite/config/component/cJSON/cjson_ndk.stamp
+[88/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/communication/wifi_lite/wifiaware/source/libhal_wifiaware.hal_wifiaware.o
+[89/222] gcc cross compiler obj/base/update/ota_lite/frameworks/source/verify/libhota.hota_verify.o
+[90/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_gpio.o
+[91/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_i2c.o
+../../../device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/hal_iot_i2c.c: In function 'IoTI2cWrite':
+../../../device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/hal_iot_i2c.c:25:22: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     i2cData.send_buf = data;
+                      ^
+[92/222] gcc cross compiler obj/third_party/cJSON/libcjson_static.cJSON_Utils.o
+[93/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_pwm.o
+[94/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_uart.o
+[95/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_watchdog.o
+[96/222] AR libs/libhal_wifiaware.a
+[97/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_lowpower.o
+[98/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/libwifiservice.wifi_device_util.o
+[99/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/libwifiservice.wifi_device.o
+[100/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_flash.o
+[101/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/communication/wifi_lite/wifiservice/source/libwifiservice.wifi_hotspot.o
+[102/222] AR libs/libwifiservice.a
+[103/222] STAMP obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/communication/wifi_lite/wifiservice/wifiservice_ndk.stamp
+[104/222] gcc cross compiler obj/third_party/cJSON/libcjson_static.cJSON.o
+[105/222] AR libs/libcjson_static.a
+[106/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/kal/posix/src/libposix.pthread_attr.o
+[107/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/kal/cmsis/libcmsis.cmsis_liteos.o
+[108/222] AR libs/libcmsis.a
+[109/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_reset.o
+[110/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/update/libhal_update_static.hal_hota_board.o
+[111/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_gpio_ex.o
+[112/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_adc.o
+[113/222] AR libs/libhal_update_static.a
+[114/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_i2c_ex.o
+[115/222] STAMP obj/domains/iot/link/link.stamp
+[116/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/utils/file/src/libhal_file_static.hal_file.o
+[117/222] AR libs/libhal_file_static.a
+[118/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/hals/iot_hardware/wifiiot_lite/libhal_iothardware.hal_iot_spi.o
+[119/222] AR libs/libhal_iothardware.a
+[120/222] gcc cross compiler obj/foundation/communication/wifi_aware/frameworks/source/libwifiaware.wifiaware.o
+[121/222] STAMP obj/base/iot_hardware/peripheral/iothardware.stamp
+[122/222] STAMP obj/base/iot_hardware/peripheral/iothardware_ndk.stamp
+[123/222] AR libs/libwifiaware.a
+[124/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/kal/posix/src/libposix.pthread.o
+[125/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/kal/posix/src/libposix.libc.o
+[126/222] STAMP obj/domains/iot/link/iot.stamp
+[127/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/kal/posix/src/libposix.file.o
+[128/222] COPY ../../../foundation/distributedschedule/samgr_lite/config/system_capability.json obj/foundation/distributedschedule/samgr_lite/config/system_capability.json
+[129/222] STAMP obj/foundation/distributedschedule/samgr_lite/ConfigFiles.stamp
+[130/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/communication/broadcast/source/libbroadcast.pub_sub_feature.o
+[131/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/communication/broadcast/source/libbroadcast.broadcast_service.o
+[132/222] STAMP obj/foundation/communication/wifi_lite/wifi.stamp
+[133/222] gcc cross compiler obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/kal/posix/src/libposix.time.o
+[134/222] AR libs/libposix.a
+[135/222] STAMP obj/device/bearpi/bearpi_hm_nano/hi3861_adapter/kal/kal.stamp
+[136/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/communication/broadcast/source/libbroadcast.pub_sub_implement.o
+[137/222] STAMP obj/device/bearpi/bearpi_hm_nano/sdk_liteos/sdk.stamp
+[138/222] AR libs/libinc.a
+[139/222] STAMP obj/device/bearpi/bearpi_hm_nano/sdk_liteos/wifiiot_sdk.stamp
+[140/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.memory_adapter.o
+cc1: warning: ../../../kernel/liteos_m/kal/posix/include/malloc.h: not a directory
+[141/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.thread_adapter.o
+cc1: warning: ../../../kernel/liteos_m/kal/posix/include/malloc.h: not a directory
+[142/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.queue_adapter.o
+cc1: warning: ../../../kernel/liteos_m/kal/posix/include/malloc.h: not a directory
+[143/222] AR libs/libbroadcast.a
+[144/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/registry/libsamgr.service_registry.o
+[145/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/adapter/cmsis/libsamgr_adapter.time_adapter.o
+cc1: warning: ../../../kernel/liteos_m/kal/posix/include/malloc.h: not a directory
+[146/222] AR libs/libsamgr_adapter.a
+[147/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr.samgr_lite.o
+[148/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.common.o
+[149/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.feature.o
+[150/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.iunknown.o
+[151/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.service.o
+[152/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.message.o
+[153/222] gcc cross compiler obj/third_party/iot_link/link_log/liblink_log.link_log.o
+[154/222] gcc cross compiler obj/foundation/distributedschedule/samgr_lite/samgr/source/libsamgr_source.task_manager.o
+[155/222] AR libs/libsamgr_source.a
+[156/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTConnectServer.o
+[157/222] AR libs/libsamgr.a
+[158/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTDeserializePublish.o
+[159/222] STAMP obj/foundation/distributedschedule/samgr_lite/samgr.stamp
+[160/222] STAMP obj/foundation/distributedschedule/samgr_lite/samgr_lite_ndk.stamp
+[161/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTFormat.o
+[162/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTSerializePublish.o
+[163/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTSubscribeClient.o
+[164/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTUnsubscribeClient.o
+[165/222] AR libs/liblink_log.a
+[166/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTSubscribeServer.o
+[167/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTPacket.o
+[168/222] gcc cross compiler obj/third_party/iot_link/link_misc/liblink_misc.link_random.o
+[169/222] gcc cross compiler obj/third_party/iot_link/link_misc/liblink_misc.link_string.o
+[170/222] gcc cross compiler obj/third_party/iot_link/link_misc/liblink_misc.link_ring_buffer.o
+[171/222] AR libs/liblink_misc.a
+[172/222] gcc cross compiler obj/third_party/iot_link/network/dtls/dtls_al/libdtls.dtls_al.o
+[173/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/mqtt_al/libmqtt.mqtt_al.o
+[174/222] gcc cross compiler obj/third_party/iot_link/network/dtls/mbedtls/mbedtls_port/libdtls.dtls_interface.o
+[175/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTConnectClient.o
+[176/222] gcc cross compiler obj/third_party/iot_link/network/dtls/mbedtls/mbedtls_port/libdtls.timing_alt.o
+[177/222] gcc cross compiler obj/third_party/iot_link/network/dtls/mbedtls/mbedtls_port/libdtls.mbed_port.o
+[178/222] AR libs/libdtls.a
+[179/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/port/libmqtt.paho_osdepends.o
+[180/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTClient-C/src/libmqtt.MQTTClient.o
+[181/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/port/libmqtt.paho_mqtt_port.o
+[182/222] gcc cross compiler obj/utils/native/lite/kv_store/src/kvstore_common/libutils_kv_store.kvstore_common.o
+[183/222] gcc cross compiler obj/third_party/iot_link/network/mqtt/paho_mqtt/paho/MQTTPacket/src/libmqtt.MQTTUnsubscribeServer.o
+[184/222] AR libs/libmqtt.a
+[185/222] gcc cross compiler obj/third_party/iot_link/oc_mqtt/oc_mqtt_al/liboc_mqtt.oc_mqtt_al.o
+[186/222] gcc cross compiler obj/third_party/iot_link/oc_mqtt/oc_mqtt_profile_v5/liboc_mqtt.oc_mqtt_profile_package.o
+[187/222] gcc cross compiler obj/third_party/iot_link/oc_mqtt/oc_mqtt_tiny_v5/liboc_mqtt.hmac.o
+[188/222] gcc cross compiler obj/third_party/iot_link/oc_mqtt/oc_mqtt_profile_v5/liboc_mqtt.oc_mqtt_profile.o
+[189/222] gcc cross compiler obj/third_party/iot_link/oc_mqtt/oc_mqtt_profile_v5/liboc_mqtt.oc_mqtt_event.o
+[190/222] gcc cross compiler obj/third_party/iot_link/queue/libqueue.queue.o
+[191/222] AR libs/libqueue.a
+[192/222] gcc cross compiler obj/utils/native/lite/file/src/file_impl_hal/libnative_file.file.o
+[193/222] STAMP obj/vendor/bearpi/bearpi_hm_nano/bearpi_hm_nano.stamp
+[194/222] AR libs/libnative_file.a
+[195/222] STAMP obj/utils/native/lite/file/file.stamp
+[196/222] gcc cross compiler obj/utils/native/lite/kv_store/src/kvstore_impl_hal/libutils_kv_store.kv_store.o
+[197/222] AR libs/libutils_kv_store.a
+[198/222] STAMP obj/utils/native/lite/kv_store/kv_store.stamp
+[199/222] gcc cross compiler obj/vendor/bearpi/bearpi_hm_nano/hals/utils/sys_param/libhal_sysparam.hal_sys_param.o
+[200/222] AR libs/libhal_sysparam.a
+[201/222] AR libs/libsysparam.a
+[202/222] gcc cross compiler obj/utils/native/lite/os_dump/libdump_static.dump_syspara.o
+In file included from ../../../utils/native/lite/os_dump/dump_syspara.c:16:0:
+../../../utils/native/lite/os_dump/dump_syspara.h:21:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+     char *(*getInfoValue)();
+     ^~~~
+../../../utils/native/lite/os_dump/dump_syspara.h:24:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int QuerySysparaCmd();
+ ^~~
+../../../utils/native/lite/os_dump/dump_syspara.c:50:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int QuerySysparaCmd()
+     ^~~~~~~~~~~~~~~
+[203/222] STAMP obj/base/startup/syspara_lite/frameworks/parameter/parameter_notes.stamp
+[204/222] AR libs/libhota.a
+[205/222] STAMP obj/base/startup/syspara_lite/frameworks/parameter/parameter.stamp
+[206/222] AR libs/libdump_static.a
+[207/222] STAMP obj/base/update/ota_lite/frameworks/ota_lite.stamp
+[208/222] STAMP obj/utils/native/lite/os_dump/utils_os_dump.stamp
+[209/222] gcc cross compiler obj/vendor/bearpi/bearpi_hm_nano/hals/utils/token/libhal_token_static.hal_token.o
+[210/222] AR libs/libhal_token_static.a
+[211/222] AR libs/libtoken_static.a
+[212/222] STAMP obj/base/startup/syspara_lite/frameworks/token/token.stamp
+[213/222] gcc cross compiler obj/third_party/iot_link/oc_mqtt/oc_mqtt_tiny_v5/liboc_mqtt.oc_mqtt_tiny.o
+[214/222] AR libs/liboc_mqtt.a
+[215/222] STAMP obj/third_party/iot_link/iot_link.stamp
+[216/222] AR libs/libcloud_oc_agriculture.a
+[217/222] STAMP obj/applications/sample/BearPi/BearPi-HM_Nano/sample/sample.stamp
+[218/222] STAMP obj/build/lite/ohos.stamp
+[219/222] ACTION //build/lite:gen_rootfs(//build/lite/toolchain:riscv32-unknown-elf)
+no need to make rootfs
+[220/222] STAMP obj/build/lite/gen_rootfs.stamp
+[221/222] ACTION //device/bearpi/bearpi_hm_nano/sdk_liteos:run_wifiiot_scons(//build/lite/toolchain:riscv32-unknown-elf)
+[222/222] STAMP obj/device/bearpi/bearpi_hm_nano/sdk_liteos/run_wifiiot_scons.stamp
