@@ -1,5 +1,5 @@
-# 基于OpenHarmony的智慧农业大棚监控系统 AgriMonitor-System
-# BearPi-HM_Nano 智慧农业案例
+# 基于OpenHarmony的智慧农业大棚监控系统
+BearPi-HM_Nano 智慧农业案例
 
 ## 📌 开发板简介
 
